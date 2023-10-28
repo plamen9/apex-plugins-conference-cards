@@ -8,3 +8,9 @@ A Template Component for Oracle APEX (23.1 and above). Conference Card plugin al
 ## Notes
 - The Card takes 100% of the container it is put into. The maximum width of the card is set to 800px. If you want to modify it further, feel free to change the max-width property of the **card_wrapper** CSS class.
 - When used as a Multiple (Report), you can additionally set the width of a card. The number of cards, displayed in a row will be automatically calculated based on the card width. 
+
+## Demo Application
+[https://apex.oracle.com/pls/apex/r/gamma_dev/demo/conference-cards-plugin-demo](https://apex.oracle.com/pls/apex/r/gamma_dev/demo/conference-cards-plugin-demo)
+
+## Install
+- Import plugin file "conference_cards_plugin.sql" from source directory into your application
