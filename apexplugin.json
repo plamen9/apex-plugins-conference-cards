@@ -25,7 +25,7 @@
             "versions": ["23.1.0", "23.2.0"],
             "plugin": {
                 "internalName": "REGION.MYCOMPANY.CONFERENCE_CARD",
-                "type": "region",
+                "type": "template component",
                 "demo": "https://apex.oracle.com/pls/apex/r/gamma_dev/demo/conference-cards-plugin-demo",
                 "previewImage": "https://raw.githubusercontent.com/plamen9/apex-plugins-conference-cards/main/demo_1.jpg"
             }
