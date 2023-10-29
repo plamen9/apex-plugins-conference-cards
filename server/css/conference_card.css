@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800&family=Roboto+Serif:opsz,wght@8..144,100&family=Roboto:wght@100&display=swap');
+
+.card_wrapper {
+   --card-width: 100%;
+   --avatar-width: calc(var(--card-width)*0.27); 
+}
+.card_top {
+   height: calc(var(--card-width) * 9/16 * 0.30);
+}
+.card_conference_logo {
+   height: calc(var(--card-width) * 9/16 * 0.48);
+   background-position-x: 0.1%;
+}
+.card_presenter_image { 
+   left: calc(var(--card-width) * 0.04);
+   top: calc(var(--card-width) * 9/16 * 0.1);
+}
+.speaker_data,
+.card_conference_address,
+.footer_data {
+   left: calc(var(--card-width) * 0.055); 
+}
+.speaker_data,
+.footer_data {
+   top: calc(var(--card-width) * 9/16 * 0.5);
+}
+.card_person_name {
+   font-size: calc(10px + 1.4vw);
+}
+.card_talk_title {
+   font-size: calc(10px + 1vw);
+}
+.card_talk_time {
+   font-size: calc(10px + 0.8vw);
+}
+.card_conference_address,
+.card_conference_hashtag {
+   font-size: calc(10px + 0.6vw);
+}
+.card_conference_hashtag {
+   right: calc(var(--card-width) * 0.055);
+}
+
+@media (max-width: 767px) {
+   .card_person_name {
+      font-size: calc(5px + 2vw);
+   }
+   .card_talk_title {
+      font-size: calc(5px + 1.4vw);
+   }
+   .card_talk_time {
+      font-size: calc(5px + 1.2vw);
+   }
+}
+/* end of % units */
+
+.card_grid {
+   display: grid;
+   grid-gap: 1rem; 
+   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.card_wrapper {
+   font-family: "Inter", sans-serif;
+   position: relative;
+   width: var(--card-width);
+   min-width: 200px;
+   max-width: 800px;
+   aspect-ratio: 16 / 9;
+   border: 5px #fff solid;
+   border-radius: 16px;
+
+   background-color: #C74634;
+   box-shadow: 2px 2px 10px #ccc;
+}
+
+.card_top {
+   width: 100%;
+   border-radius: 10px 10px 0px 0px;
+}
+
+.card_conference_logo {
+   width: 100%;
+   background-color: #3F0B0E;
+   overflow: hidden;
+}
+
+.card_conference_logo img {
+   width: auto; 
+   height: 100%;
+}
+
+.card_data {
+   width: 100%;
+   height: calc(var(--card-width) * 9/16 * 0.80);
+   border-radius: 0px 0px 13px 13px;
+
+   color: #fff;
+}
+
+.card_presenter_image { 
+   width: var(--avatar-width);
+   aspect-ratio: 1 / 1;
+   border: 0.35rem #fff solid;
+   position: absolute;
+   background-color: #efefef;
+   border-radius: 18rem;
+   background-size: cover;
+   background-position: center;
+}
+
+.speaker_data,
+.footer_data {
+   position: relative;
+   bottom: 6px;
+}
+
+.card_conference_address, .card_conference_hashtag {
+   position: absolute;
+} 
+.card_person_name {
+   font-weight: 800;
+}
+.card_talk_title {
+   font-weight: 400; 
+}
+.card_talk_time {
+   font-weight: 200;
+}
+.card_conference_address,
+.card_conference_hashtag {
+   bottom: 3%;
+   font-weight: 200;
+}
+
+svg text.card_person_name {
+   transform: translate(0px, 13px);
+   font-size: 0.75rem;
+}
+svg text.card_talk_title {
+   transform: translate(0px, 26px);
+   font-size: 0.625rem;
+}
+svg text.card_talk_time {
+   transform: translate(0px, 36px);
+   font-size: 0.5rem;
+}
+
+svg text.card_conference_address {
+   transform: translate(0px, 6px);
+   font-size: 0.5rem;
+}
+svg text.card_conference_hashtag {
+   transform: translate(184px, 6px);
+   font-size: 0.5rem;
+}
