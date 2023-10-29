@@ -91,7 +91,8 @@ https://mywebsite.com/profile_picture.png |
 | Talk Time | Description of the room, date and time of the talk. Appears below the Talk title. | Mon, 26 June, 17:30 | Ballroom 3 |
 
 ## How it's made
-Curios to see how to build such a Template Component Plugin from scratch? Click on the link below and check my blog post ⤵️
+Curios to see how to build such a Template Component Plugin from scratch? 
+Click on the link below and check my blog post ⤵️
 
 [![From Prototype to Great Application Component](https://cdn.hashnode.com/res/hashnode/image/upload/v1698171884930/8b330d44-8407-43fd-bc79-a33f04e4a886.png?w=600&h=315&fit=crop&crop=entropy&auto=compress,format&format=webp')](https://blog.apexapplab.dev/from-prototype-to-great-application-component)
 
