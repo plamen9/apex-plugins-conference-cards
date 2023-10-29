@@ -78,9 +78,7 @@ where conference = 'Kscope23';
 | Card Text Colour | The text colour of the card. Use HEX values. | #FFFFFF |
 | Conference Address | Conference location. Appears in the bottom left corner of the card. | 510 Oracle Parkway, Reading, UK |
 | Conference Hashtag | Hashtag of the conference. Appears in the bottom right corner of the card. | orclapex |
-| Conference Logo URL | A URL of the conference logo. You can use #APP_FILES# substitutions strings too. </br>
-Recommended aspect ratio of the image is 1:1 (a square photo). All image formats are allowed. | #APP_FILES#conference_card/conference_logo.png </br>
-https://mywebsite.com/profile_picture.jpg |
+| Conference Logo URL | A URL of the conference logo. You can use #APP_FILES# substitutions strings too. </br> Recommended aspect ratio of the image is 1:1 (a square photo). All image formats are allowed. | #APP_FILES#conference_card/conference_logo.png </br> https://mywebsite.com/profile_picture.jpg |
 | Logo Background Colour | Sets a background colour of the Logo region. | #3F0B0E |
 | Logo Position X | Helps position the Logo horizontally. You can use %, px, er, rem, etc. units. | 25% </br> 35px </br> 2rem |
 | Logo Position Y | Helps position Logo vertically. You can use %, px, er, rem, etc. units. | 25% </br> 35px </br> 2rem |
