@@ -1,6 +1,9 @@
-# Conference Cards Template Component for Oracle APEX
+# Conference Cards Template Component for APEX
 [![APEX Community](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/78c5adbe/badges/apex-community-badge.svg)](https://apex.oracle.com/pls/apex/r/gamma_dev/demo/) [![APEX Plugin](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/b7e95341/badges/apex-plugin-badge.svg)](https://apex.oracle.com/pls/apex/r/gamma_dev/demo/)
 [![APEX Built with Love](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/7919f913/badges/apex-love-badge.svg)](https://apex.oracle.com/pls/apex/r/gamma_dev/demo/)
+
+## Preview
+![Conference Cards in each of the two available designs](https://raw.githubusercontent.com/plamen9/apex-plugins-conference-cards/main/demo_1.jpg "Conference Cards in each of the two available designs")
 
 ## Description
 A Template Component for Oracle APEX (23.1 and above). Conference Card plugin allows you to create personalized Speaker cards for any conference. You can set up custom logos, colours, speaker image, talk topic, etc.
@@ -64,3 +67,31 @@ where conference = 'Kscope23';
 - After changing the type to `Conference Card`, all of the Attributes for the Tempalte Component will be available below.
 - Map the query columns to the relevant attributes from the list, similar to the previous two scenarios (full list of options and their description - below).
 > **Note that the Cards will have a CSS property `min-width` set to 200px, as card is useles if it's less that that. Otherwise, the Card always takes 100% of the container it belongs to (in this case the report cell).*
+
+## Attributes
+| Attribute  | Description  | Examples |
+|---|---|---|
+| Card Width | The width of a single card when you display more than one. The cards are displayed in a grid and the number of cards on row is automatically changed, depending on the width you specify.  | 300px </br> 30rem </br> 20% | 
+| Card Design | Pick a design for your card. Currently supported are the Credit Card Style Design and Linkedin Style Design.  | Credit Card Style </br> Linkedin Style  | 
+| Custom CSS Classes  | You can any CSS classes here, separated by a space. They are applied at the card_wrapper DIV element.  | padding-sm </br> margin-left-md margin-right-md </br>  my_custom_css_class  |
+| Card Background Colour | Background colour of the Card. | #C74634 |
+| Card Text Colour | The text colour of the card. Use HEX values. | #FFFFFF |
+| Conference Address | Conference location. Appears in the bottom left corner of the card. | 510 Oracle Parkway, Reading, UK |
+| Conference Hashtag | Hashtag of the conference. Appears in the bottom right corner of the card. | orclapex |
+| Conference Logo URL | A URL of the conference logo. You can use #APP_FILES# substitutions strings too. </br>
+Recommended aspect ratio of the image is 1:1 (a square photo). All image formats are allowed. | #APP_FILES#conference_card/conference_logo.png </br>
+https://mywebsite.com/profile_picture.jpg |
+| Logo Background Colour | Sets a background colour of the Logo region. | #3F0B0E |
+| Logo Position X | Helps position the Logo horizontally. You can use %, px, er, rem, etc. units. | 25% </br> 35px </br> 2rem |
+| Logo Position Y | Helps position Logo vertically. You can use %, px, er, rem, etc. units. | 25% </br> 35px </br> 2rem |
+| Presenter Name | Name of the speaker. Appears below the profile picture in bold. | Plamen Mushkov |
+| Presenter Image URL | A URL of the speaker picture. You can use #APP_FILES# substitutions strings too. An aspect ratio of 1:1 (square image) is preferred. | #APP_FILES#conference_card/profile_400x400.jpeg </br>
+https://mywebsite.com/profile_picture.png |
+| Talk Title | Talk title. Appears below the speaker name on the card. | Starting big with Template Components |
+| Talk Time | Description of the room, date and time of the talk. Appears below the Talk title. | Mon, 26 June, 17:30 | Ballroom 3 |
+
+## How it's made
+Curios to see how to build such a Template Component Plugin from scratch? Click on the link below and check my blog post ⤵️
+
+[![From Prototype to Great Application Component](https://cdn.hashnode.com/res/hashnode/image/upload/v1698171884930/8b330d44-8407-43fd-bc79-a33f04e4a886.png?w=600&h=315&fit=crop&crop=entropy&auto=compress,format&format=webp')](https://blog.apexapplab.dev/from-prototype-to-great-application-component)
+
