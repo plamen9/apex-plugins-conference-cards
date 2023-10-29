@@ -1,0 +1,34 @@
+{
+    "name": "Conference Cards",
+    "version": "1.0",
+    "description": "Conference Cards Template Component plugin allows you to create personalized Speaker cards for any conference. It allows setting up custom logos, colours, speaker image, talk topic, etc.",
+    "keywords": ["template", "component", "plugin", "card", "conference"],
+    "homepage": "https://github.com/plamen9/apex-plugins-conference-cards",
+    "bugs": {
+        "url": "https://github.com/plamen9/apex-plugins-conference-cards/issues",
+        "email": "pmushkov@yahoo.com"
+    },
+    "license": "MIT",
+    "commercial": "No",
+    "author": {
+        "name": "Plamen Mushkov",
+        "email": "pmushkov@yahoo.com",
+        "url": "http://blog.apexapplab.dev/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/plamen9/apex-plugins-conference-cards.git"
+    },
+    "oracle": {
+        "versions": ["23.2.0", "21.1.0", "19.1.0"],
+        "apex": {
+            "versions": ["23.1.0", "23.2.0"],
+            "plugin": {
+                "internalName": "REGION.MYCOMPANY.CONFERENCE_CARD",
+                "type": "region",
+                "demo": "https://apex.oracle.com/pls/apex/r/gamma_dev/demo/conference-cards-plugin-demo",
+                "previewImage": "https://raw.githubusercontent.com/plamen9/apex-plugins-conference-cards/main/demo_1.jpg"
+            }
+        }
+    }
+}
