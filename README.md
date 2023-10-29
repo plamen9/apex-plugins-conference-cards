@@ -16,8 +16,8 @@ A Template Component for Oracle APEX (23.1 and above). Conference Card plugin al
 [https://apex.oracle.com/pls/apex/r/gamma_dev/demo/conference-cards-plugin-demo](https://apex.oracle.com/pls/apex/r/gamma_dev/demo/conference-cards-plugin-demo)
 
 ## Installation
-- Import plugin file "conference_cards_plugin.sql" into your application
-- (Optional) Deploy the image and CSS/JS files from "server" directory on your webserver and change the "File Prefix" to web servers folder (Inside the Plugin Settings).
+- Import plugin file `conference_cards_plugin.sql` into your application
+- (Optional) Deploy the CSS/JS files from `server` directory on your webserver and change the "File Prefix" to web servers folder (Inside the Plugin Settings).
 
 ## Usage
 🔸 As a `Partial (Single)`
